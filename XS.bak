@@ -1,11 +1,33 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# Battery
+#
+DEF Battery BT 0 40 N N 1 F N
+F0 "BT" 25 -150 50 H V L CNN
+F1 "Battery" 25 150 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ *battery*
+$ENDFPLIST
+DRAW
+S -100 -10 100 -40 0 1 0 F
+S -100 100 100 70 0 1 0 F
+S -60 -60 60 -100 0 1 0 F
+S -60 50 60 10 0 1 0 F
+P 2 0 1 0  -50 175  -50 125 N
+P 2 0 1 0  -25 150  -75 150 N
+X ~ 1 0 -200 100 U 50 50 1 1 P
+X ~ 1 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Diode
 #
 DEF Diode D 0 40 N N 1 F N
-F0 "D" 0 -100 50 H V C CNN
-F1 "Diode" 0 100 50 H V C CNN
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode" 0 -100 50 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 -100 60 H V C CNN
 $FPLIST
@@ -22,19 +44,19 @@ ENDDEF
 # Polarized-Capacitor
 #
 DEF Polarized-Capacitor C 0 40 N N 1 F N
-F0 "C" 50 -100 50 H V L CNN
-F1 "Polarized-Capacitor" 50 150 50 H V L CNN
+F0 "C" 25 100 50 H V L CNN
+F1 "Polarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  Capacitor-*
 $ENDFPLIST
 DRAW
-S -100 0 100 -50 0 1 0 F
-S -100 100 100 50 0 1 0 N
-P 2 0 1 0  -150 200  -50 200 N
-P 2 0 1 0  -100 250  -100 150 N
-X ~ 1 0 200 100 D 50 50 1 1 P
+S -100 -25 100 -50 0 1 0 F
+S -100 25 100 50 0 1 0 N
+P 2 0 1 0  -75 100  -25 100 N
+P 2 0 1 0  -50 125  -50 75 N
+X ~ 1 0 150 100 D 50 50 1 1 P
 X ~ ~ 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
@@ -42,8 +64,8 @@ ENDDEF
 # Resistor
 #
 DEF Resistor R 0 40 N N 1 F N
-F0 "R" 0 -100 50 H V C CNN
-F1 "Resistor" 0 100 50 H V C CNN
+F0 "R" 0 100 50 H V C CNN
+F1 "Resistor" 0 -100 50 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -51,6 +73,15 @@ $FPLIST
 $ENDFPLIST
 DRAW
 S -100 50 100 -50 0 1 0 N
+P 2 0 1 0  -60 0  -80 0 N
+P 2 0 1 0  -50 30  -60 0 N
+P 2 0 1 0  -30 -30  -50 30 N
+P 2 0 1 0  -10 30  -30 -30 N
+P 2 0 1 0  -10 30  10 -30 N
+P 2 0 1 0  10 -30  30 30 N
+P 2 0 1 0  30 30  50 -30 N
+P 2 0 1 0  50 -30  60 0 N
+P 2 0 1 0  60 0  80 0 N
 X ~ 1 200 0 100 L 50 50 1 1 P
 X ~ 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
@@ -59,17 +90,17 @@ ENDDEF
 # Unpolarized-Capacitor
 #
 DEF Unpolarized-Capacitor C 0 40 N N 1 F N
-F0 "C" 50 -100 50 H V L CNN
-F1 "Unpolarized-Capacitor" 50 150 50 H V L CNN
+F0 "C" 25 100 50 H V L CNN
+F1 "Unpolarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  Capacitor-*
 $ENDFPLIST
 DRAW
-S -100 0 100 -50 0 1 0 F
-S -100 100 100 50 0 1 0 F
-X ~ 1 0 200 100 D 50 50 1 1 P
+S -100 -25 100 -50 0 1 0 F
+S -100 25 100 50 0 1 0 F
+X ~ 1 0 150 100 D 50 50 1 1 P
 X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
