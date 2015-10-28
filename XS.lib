@@ -31,7 +31,7 @@ F1 "Diode" 0 -100 50 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 -100 60 H V C CNN
 $FPLIST
- Diode-*
+ *diode*
 $ENDFPLIST
 DRAW
 P 2 0 1 0  50 50  50 -50 N
@@ -49,7 +49,7 @@ F1 "Polarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- Capacitor-*
+ *capacitor*
 $ENDFPLIST
 DRAW
 S -100 -25 100 -50 0 1 0 F
@@ -69,7 +69,7 @@ F1 "Resistor" 0 -100 50 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- Resistor-*
+ *resistor*
 $ENDFPLIST
 DRAW
 S -100 50 100 -50 0 1 0 N
@@ -95,7 +95,7 @@ F1 "Unpolarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- Capacitor-*
+ *capacitor*
 $ENDFPLIST
 DRAW
 S -100 -25 100 -50 0 1 0 F
