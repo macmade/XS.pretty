@@ -10,4 +10,9 @@ D Resistor
 K resistor
 $ENDCMP
 #
+$CMP Unpolarized-Capacitor
+D Unpolarized Capacitor
+K unpolarized capacitor
+$ENDCMP
+#
 #End Doc Library

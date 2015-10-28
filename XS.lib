@@ -36,4 +36,22 @@ X ~ 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Unpolarized-Capacitor
+#
+DEF Unpolarized-Capacitor C 0 40 N N 1 F N
+F0 "C" 50 -100 50 H V L CNN
+F1 "Unpolarized-Capacitor" 50 150 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Capacitor-*
+$ENDFPLIST
+DRAW
+S -100 0 100 -50 0 1 0 F
+S -100 100 100 50 0 1 0 F
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
