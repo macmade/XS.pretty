@@ -5,6 +5,11 @@ D Diode
 K diode
 $ENDCMP
 #
+$CMP Polarized-Capacitor
+D Polarized Capacitor
+K polarized capacitor
+$ENDCMP
+#
 $CMP Resistor
 D Resistor
 K resistor
