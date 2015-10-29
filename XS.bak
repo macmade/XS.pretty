@@ -1,6 +1,25 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# Barrel-Jack-Connector
+#
+DEF Barrel-Jack-Connector J 0 40 Y N 1 F N
+F0 "J" 0 260 60 H V C CNN
+F1 "Barrel-Jack-Connector" 0 -190 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ *barrel*
+ *jack*
+ *connector*
+$ENDFPLIST
+DRAW
+X ~ 1 250 100 100 L 50 50 0 0 P
+X ~ 2 250 -100 100 L 50 50 0 0 P
+X ~ 3 250 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Battery
 #
 DEF Battery BT 0 40 N N 1 F N
@@ -95,6 +114,7 @@ $ENDFPLIST
 DRAW
 X P1 1 -150 0 100 R 50 50 0 0 P
 S -50 50 50 -50 0 1 0 N
+P 4 0 1 0  -50 10  20 10  20 -10  -50 -10 N
 ENDDRAW
 ENDDEF
 #
