@@ -10,6 +10,11 @@ D Diode
 K diode
 $ENDCMP
 #
+$CMP LED
+D LED
+K led
+$ENDCMP
+#
 $CMP Polarized-Capacitor
 D Polarized Capacitor
 K polarized capacitor
