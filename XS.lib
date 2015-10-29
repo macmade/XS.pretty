@@ -122,6 +122,27 @@ X ~ 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Switch-SPDT
+#
+DEF Switch-SPDT SW 0 0 Y Y 1 F N
+F0 "SW" 0 200 60 H V C CNN
+F1 "Switch-SPDT" 0 -225 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ *spdt*
+$ENDFPLIST
+DRAW
+X A 1 300 100 100 L 50 50 0 0 P
+X B 2 -300 0 100 R 50 50 0 0 P
+X C 3 300 -100 100 L 50 50 0 0 P
+C -150 0 50 0 1 0 N
+C 150 -100 50 0 1 0 N
+C 150 100 50 0 1 0 N
+P 2 0 1 0  -100 0  150 50 N
+ENDDRAW
+ENDDEF
+#
 # Unpolarized-Capacitor
 #
 DEF Unpolarized-Capacitor C 0 40 N N 1 F N

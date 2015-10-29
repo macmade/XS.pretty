@@ -30,6 +30,11 @@ D Resistor
 K resistor
 $ENDCMP
 #
+$CMP Switch-SPDT
+D Switch - SPDT
+K switch spdt
+$ENDCMP
+#
 $CMP Unpolarized-Capacitor
 D Unpolarized Capacitor
 K unpolarized capacitor
