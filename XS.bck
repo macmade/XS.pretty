@@ -15,6 +15,16 @@ D LED
 K led
 $ENDCMP
 #
+$CMP LM7805
+D LM7805 Voltage Regulator
+K lm7805 voltage regulator
+$ENDCMP
+#
+$CMP Pin-Header-1x01
+D Pin Header - 1x01
+K pin header
+$ENDCMP
+#
 $CMP Polarized-Capacitor
 D Polarized Capacitor
 K polarized capacitor
