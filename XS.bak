@@ -4,8 +4,8 @@ EESchema-LIBRARY Version 2.3
 # Barrel-Jack-Connector
 #
 DEF Barrel-Jack-Connector J 0 40 Y N 1 F N
-F0 "J" 0 260 60 H V C CNN
-F1 "Barrel-Jack-Connector" 0 -190 60 H V C CNN
+F0 "J" 0 200 60 H V C CNN
+F1 "Barrel-Jack-Connector" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -17,6 +17,12 @@ DRAW
 X ~ 1 250 100 100 L 50 50 0 0 P
 X ~ 2 250 -100 100 L 50 50 0 0 P
 X ~ 3 250 0 100 L 50 50 0 0 P
+A -200 100 50 901 -901 0 1 0 N -200 150 -200 50
+S 150 150 50 50 0 1 0 N
+P 2 0 1 0  -200 150  50 150 N
+P 2 0 1 0  50 50  -200 50 N
+P 3 0 1 0  150 0  0 0  0 -100 N
+P 5 0 1 0  -250 -100  -200 -100  -150 0  -100 -100  150 -100 N
 ENDDRAW
 ENDDEF
 #
