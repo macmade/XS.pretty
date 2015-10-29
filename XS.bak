@@ -61,6 +61,18 @@ X ~ ~ 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Power-Flag
+#
+DEF Power-Flag PWR 0 40 N N 1 F P
+F0 "PWR" 0 0 50 H I C CNN
+F1 "Power-Flag" 0 200 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X PWR 1 125 -50 100 U 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
 # Resistor
 #
 DEF Resistor R 0 40 N N 1 F N
@@ -95,7 +107,7 @@ F1 "Unpolarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
- Capacitor-*
+ *capacitor*
 $ENDFPLIST
 DRAW
 S -100 -25 100 -50 0 1 0 F

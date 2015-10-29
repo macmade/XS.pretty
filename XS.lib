@@ -61,6 +61,19 @@ X ~ ~ 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Power-Flag
+#
+DEF Power-Flag PWR 0 40 N N 1 F P
+F0 "PWR" 0 -150 50 H I C CNN
+F1 "Power-Flag" 0 150 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X PWR 1 0 -100 100 U 50 50 0 0 W
+P 5 0 1 0  0 100  -100 50  0 0  100 50  0 100 N
+ENDDRAW
+ENDDEF
+#
 # Resistor
 #
 DEF Resistor R 0 40 N N 1 F N
