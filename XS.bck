@@ -50,6 +50,11 @@ D Switch - SPDT
 K switch spdt
 $ENDCMP
 #
+$CMP Transistor-NPN
+D NPN Transistor
+K npn transistor
+$ENDCMP
+#
 $CMP Unpolarized-Capacitor
 D Unpolarized Capacitor
 K unpolarized capacitor
