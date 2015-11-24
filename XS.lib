@@ -208,8 +208,8 @@ ENDDEF
 # Transistor-NPN
 #
 DEF Transistor-NPN Q 0 0 Y Y 1 F N
-F0 "Q" 170 60 60 H V C CNN
-F1 "Transistor-NPN" 470 -60 60 H V C CNN
+F0 "Q" 110 60 60 H V L CNN
+F1 "Transistor-NPN" 120 -60 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
