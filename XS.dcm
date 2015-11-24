@@ -1,61 +1,61 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Barrel-Jack-Connector
+$CMP XS-Barrel-Jack-Connector
 D Barrel Jack Connector
 K barrel jack connector
 $ENDCMP
 #
-$CMP Battery
+$CMP XS-Battery
 D Battery
 K battery
 $ENDCMP
 #
-$CMP Diode
+$CMP XS-Diode
 D Diode
 K diode
 $ENDCMP
 #
-$CMP LED
+$CMP XS-LED
 D LED
 K led
 $ENDCMP
 #
-$CMP LM7805
+$CMP XS-LM7805
 D LM7805 Voltage Regulator
 K lm7805 voltage regulator
 $ENDCMP
 #
-$CMP Pin-Header-1x01
+$CMP XS-Pin-Header-1x01
 D Pin Header - 1x01
 K pin header
 $ENDCMP
 #
-$CMP Polarized-Capacitor
+$CMP XS-Polarized-Capacitor
 D Polarized Capacitor
 K polarized capacitor
 $ENDCMP
 #
-$CMP Power-Flag
+$CMP XS-Power-Flag
 D Power Flag
 K power flag
 $ENDCMP
 #
-$CMP Resistor
+$CMP XS-Resistor
 D Resistor
 K resistor
 $ENDCMP
 #
-$CMP Switch-SPDT
+$CMP XS-Switch-SPDT
 D Switch - SPDT
 K switch spdt
 $ENDCMP
 #
-$CMP Transistor-NPN
+$CMP XS-Transistor-NPN
 D NPN Transistor
 K npn transistor
 $ENDCMP
 #
-$CMP Unpolarized-Capacitor
+$CMP XS-Unpolarized-Capacitor
 D Unpolarized Capacitor
 K unpolarized capacitor
 $ENDCMP

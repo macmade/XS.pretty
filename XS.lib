@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# Barrel-Jack-Connector
+# XS-Barrel-Jack-Connector
 #
-DEF Barrel-Jack-Connector J 0 40 Y N 1 F N
+DEF XS-Barrel-Jack-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 60 H V C CNN
-F1 "Barrel-Jack-Connector" 0 -150 60 H V C CNN
+F1 "XS-Barrel-Jack-Connector" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -26,11 +26,11 @@ P 5 0 1 0  -250 -100  -200 -100  -150 0  -100 -100  150 -100 N
 ENDDRAW
 ENDDEF
 #
-# Battery
+# XS-Battery
 #
-DEF Battery BT 0 40 N N 1 F N
+DEF XS-Battery BT 0 40 N N 1 F N
 F0 "BT" 25 100 50 H V L CNN
-F1 "Battery" 25 -100 50 H V L CNN
+F1 "XS-Battery" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -48,11 +48,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode
+# XS-Diode
 #
-DEF Diode D 0 40 N N 1 F N
+DEF XS-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode" 0 -100 50 H V C CNN
+F1 "XS-Diode" 0 -100 50 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 -100 60 H V C CNN
 $FPLIST
@@ -66,11 +66,11 @@ X A 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED
+# XS-LED
 #
-DEF LED DS 0 40 N N 1 F N
+DEF XS-LED DS 0 40 N N 1 F N
 F0 "DS" 0 100 60 H V C CNN
-F1 "LED" 0 -100 60 H V C CNN
+F1 "XS-LED" 0 -100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -88,11 +88,11 @@ P 4 0 1 0  140 50  140 30  120 50  140 50 F
 ENDDRAW
 ENDDEF
 #
-# LM7805
+# XS-LM7805
 #
-DEF LM7805 VR 0 40 N Y 1 F N
+DEF XS-LM7805 VR 0 40 N Y 1 F N
 F0 "VR" 0 200 50 H V C CNN
-F1 "LM7805" 25 -200 50 H V L CNN
+F1 "XS-LM7805" 25 -200 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -106,11 +106,11 @@ S -200 150 200 -150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# Pin-Header-1x01
+# XS-Pin-Header-1x01
 #
-DEF Pin-Header-1x01 P 0 40 Y N 1 F N
+DEF XS-Pin-Header-1x01 P 0 40 Y N 1 F N
 F0 "P" 0 100 60 H V C CNN
-F1 "Pin-Header-1x01" 0 -100 60 H V C CNN
+F1 "XS-Pin-Header-1x01" 0 -100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -124,11 +124,11 @@ P 4 0 1 0  -50 10  20 10  20 -10  -50 -10 N
 ENDDRAW
 ENDDEF
 #
-# Polarized-Capacitor
+# XS-Polarized-Capacitor
 #
-DEF Polarized-Capacitor C 0 40 N N 1 F N
+DEF XS-Polarized-Capacitor C 0 40 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Polarized-Capacitor" 25 -100 50 H V L CNN
+F1 "XS-Polarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -144,11 +144,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power-Flag
+# XS-Power-Flag
 #
-DEF Power-Flag PWR 0 40 N N 1 F P
+DEF XS-Power-Flag PWR 0 40 N N 1 F P
 F0 "PWR" 0 -150 50 H I C CNN
-F1 "Power-Flag" 0 150 50 H V C CNN
+F1 "XS-Power-Flag" 0 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -157,11 +157,11 @@ P 5 0 1 0  0 100  -100 50  0 0  100 50  0 100 N
 ENDDRAW
 ENDDEF
 #
-# Resistor
+# XS-Resistor
 #
-DEF Resistor R 0 40 N N 1 F N
+DEF XS-Resistor R 0 40 N N 1 F N
 F0 "R" 0 100 50 H V C CNN
-F1 "Resistor" 0 -100 50 H V C CNN
+F1 "XS-Resistor" 0 -100 50 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -183,11 +183,11 @@ X ~ 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch-SPDT
+# XS-Switch-SPDT
 #
-DEF Switch-SPDT SW 0 0 Y Y 1 F N
+DEF XS-Switch-SPDT SW 0 0 Y Y 1 F N
 F0 "SW" 0 200 60 H V C CNN
-F1 "Switch-SPDT" 0 -225 60 H V C CNN
+F1 "XS-Switch-SPDT" 0 -225 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -205,11 +205,11 @@ P 2 0 1 0  -100 0  150 50 N
 ENDDRAW
 ENDDEF
 #
-# Transistor-NPN
+# XS-Transistor-NPN
 #
-DEF Transistor-NPN Q 0 0 Y Y 1 F N
+DEF XS-Transistor-NPN Q 0 0 Y Y 1 F N
 F0 "Q" 110 60 60 H V L CNN
-F1 "Transistor-NPN" 120 -60 60 H V L CNN
+F1 "XS-Transistor-NPN" 120 -60 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X E 3 50 -190 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Unpolarized-Capacitor
+# XS-Unpolarized-Capacitor
 #
-DEF Unpolarized-Capacitor C 0 40 N N 1 F N
+DEF XS-Unpolarized-Capacitor C 0 40 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Unpolarized-Capacitor" 25 -100 50 H V L CNN
+F1 "XS-Unpolarized-Capacitor" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
