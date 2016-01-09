@@ -50,6 +50,11 @@ D Switch - SPDT
 K switch spdt
 $ENDCMP
 #
+$CMP XS-Switch-SPST
+D Switch - SPDT
+K switch spdt
+$ENDCMP
+#
 $CMP XS-Transistor-NPN
 D NPN Transistor
 K npn transistor
