@@ -20,6 +20,11 @@ D LED
 K led
 $ENDCMP
 #
+$CMP XS-LM3914
+D LM3914 LED Driver
+K lm3914 led driver
+$ENDCMP
+#
 $CMP XS-LM7805
 D LM7805 Voltage Regulator
 K lm7805 voltage regulator
