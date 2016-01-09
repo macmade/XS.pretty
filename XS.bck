@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP XS-10-SEGMENT-BAR-GRAPH-DISPLAY
+D LM3914 LED Driver
+K lm3914 led driver
+$ENDCMP
+#
 $CMP XS-Barrel-Jack-Connector
 D Barrel Jack Connector
 K barrel jack connector
@@ -21,7 +26,7 @@ K led
 $ENDCMP
 #
 $CMP XS-LM3914
-D LM3914 LED driver
+D LM3914 LED Driver
 K lm3914 led driver
 $ENDCMP
 #
