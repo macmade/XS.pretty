@@ -326,8 +326,8 @@ ENDDEF
 # XS-Transistor-NPN
 #
 DEF XS-Transistor-NPN Q 0 0 Y Y 1 F N
-F0 "Q" 110 60 50 H V L CNN
-F1 "XS-Transistor-NPN" 120 -60 50 H V L CNN
+F0 "Q" 125 50 50 H V L CNN
+F1 "XS-Transistor-NPN" 125 -50 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
