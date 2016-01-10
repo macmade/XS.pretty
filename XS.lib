@@ -69,8 +69,8 @@ ENDDEF
 # XS-Barrel-Jack-Connector
 #
 DEF XS-Barrel-Jack-Connector J 0 40 Y N 1 F N
-F0 "J" 0 200 60 H V C CNN
-F1 "XS-Barrel-Jack-Connector" 0 -150 60 H V C CNN
+F0 "J" 0 200 50 H V C CNN
+F1 "XS-Barrel-Jack-Connector" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -134,8 +134,8 @@ ENDDEF
 # XS-LED
 #
 DEF XS-LED DS 0 40 N N 1 F N
-F0 "DS" 0 100 60 H V C CNN
-F1 "XS-LED" 0 -100 60 H V C CNN
+F0 "DS" 0 100 50 H V C CNN
+F1 "XS-LED" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -207,8 +207,8 @@ ENDDEF
 # XS-Pin-Header-1x01
 #
 DEF XS-Pin-Header-1x01 P 0 40 Y N 1 F N
-F0 "P" 0 100 60 H V C CNN
-F1 "XS-Pin-Header-1x01" 0 -100 60 H V C CNN
+F0 "P" 0 100 50 H V C CNN
+F1 "XS-Pin-Header-1x01" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -284,8 +284,8 @@ ENDDEF
 # XS-Switch-SPDT
 #
 DEF XS-Switch-SPDT SW 0 0 Y Y 1 F N
-F0 "SW" 0 200 60 H V C CNN
-F1 "XS-Switch-SPDT" 0 -225 60 H V C CNN
+F0 "SW" 0 200 50 H V C CNN
+F1 "XS-Switch-SPDT" 0 -225 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -306,8 +306,8 @@ ENDDEF
 # XS-Switch-SPST
 #
 DEF XS-Switch-SPST SW 0 0 Y Y 1 F N
-F0 "SW" 0 125 60 H V C CNN
-F1 "XS-Switch-SPST" 0 -125 60 H V C CNN
+F0 "SW" 0 125 50 H V C CNN
+F1 "XS-Switch-SPST" 0 -125 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -326,8 +326,8 @@ ENDDEF
 # XS-Transistor-NPN
 #
 DEF XS-Transistor-NPN Q 0 0 Y Y 1 F N
-F0 "Q" 110 60 60 H V L CNN
-F1 "XS-Transistor-NPN" 120 -60 60 H V L CNN
+F0 "Q" 125 50 50 H V L CNN
+F1 "XS-Transistor-NPN" 125 -50 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST

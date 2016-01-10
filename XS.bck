@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP XS-10-SEGMENT-BAR-GRAPH-DISPLAY
-D LM3914 LED Driver
-K lm3914 led driver
-$ENDCMP
-#
 $CMP XS-10-Segments-Bar-Graph-Display
 D 10 Segments Bar Graph Display
 K 10 segments bar graph display
